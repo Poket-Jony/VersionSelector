@@ -40,7 +40,7 @@ namespace VersionSelector
         {
             string progName = FileVersionInfo.GetVersionInfo(FilePath).ProductName;
             string fileName = Path.GetFileNameWithoutExtension(FilePath);
-            return string.IsNullOrEmpty(progName) ? fileName: progName;
+            return string.IsNullOrEmpty(progName) || progName.Length > 32  ? fileName: progName;
         }
     }
 }

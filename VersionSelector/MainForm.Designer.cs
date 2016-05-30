@@ -38,7 +38,7 @@
             // 
             this.listViewApps.Alignment = System.Windows.Forms.ListViewAlignment.SnapToGrid;
             this.listViewApps.AllowDrop = true;
-            this.listViewApps.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.listViewApps.BackColor = System.Drawing.Color.White;
             this.listViewApps.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listViewApps.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
             this.listViewApps.LargeImageList = this.imgListIcons;
@@ -58,7 +58,7 @@
             // imgListIcons
             // 
             this.imgListIcons.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
-            this.imgListIcons.ImageSize = new System.Drawing.Size(64, 64);
+            this.imgListIcons.ImageSize = new System.Drawing.Size(40, 40);
             this.imgListIcons.TransparentColor = System.Drawing.Color.Transparent;
             // 
             // MainForm
@@ -67,6 +67,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(503, 324);
             this.Controls.Add(this.listViewApps);
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
