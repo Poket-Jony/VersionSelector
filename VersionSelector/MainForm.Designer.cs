@@ -47,7 +47,7 @@
             this.listViewApps.Name = "listViewApps";
             this.listViewApps.Scrollable = false;
             this.listViewApps.ShowGroups = false;
-            this.listViewApps.Size = new System.Drawing.Size(503, 324);
+            this.listViewApps.Size = new System.Drawing.Size(394, 332);
             this.listViewApps.TabIndex = 0;
             this.listViewApps.UseCompatibleStateImageBehavior = false;
             this.listViewApps.ItemDrag += new System.Windows.Forms.ItemDragEventHandler(this.listViewApps_ItemDrag);
@@ -58,14 +58,14 @@
             // imgListIcons
             // 
             this.imgListIcons.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
-            this.imgListIcons.ImageSize = new System.Drawing.Size(40, 40);
+            this.imgListIcons.ImageSize = new System.Drawing.Size(48, 48);
             this.imgListIcons.TransparentColor = System.Drawing.Color.Transparent;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(503, 324);
+            this.ClientSize = new System.Drawing.Size(394, 332);
             this.Controls.Add(this.listViewApps);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
@@ -73,6 +73,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Version Selector";
             this.ResumeLayout(false);
 
